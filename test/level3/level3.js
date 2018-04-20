@@ -1,3 +1,5 @@
-module.exports = (code) => {
+const isBalanced = require('../../is-balanced');
 
+module.exports = (code) => {
+  return isBalanced(code);
 };
